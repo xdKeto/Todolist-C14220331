@@ -1,5 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+<!-- res/values/colors.xml -->
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="purple_200">#BB86FC</color>
+    <color name="purple_500">#6200EE</color> <!-- Change this -->
+    <color name="purple_700">#3700B3</color> <!-- Change this -->
+    <color name="teal_200">#03DAC5</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="primaryColor">#FF5722</color> <!-- Add your primary color -->
+    <color name="primaryDarkColor">#E64A19</color> <!-- Add a darker variant -->
+    <color name="accentColor">#FFC107</color> <!-- Optional accent color -->
 </resources>

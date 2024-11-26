@@ -3,7 +3,15 @@
     <style name="Base.Theme.C14220331todolist" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryVariant">@color/primaryDarkColor</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/accentColor</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:textColor">@color/black</item>  <!-- Apply black text color -->
     </style>
 
-    <style name="Theme.C14220331todolist" parent="Base.Theme.C14220331todolist" />
+    <style name="Theme.C14220331todolist" parent="Base.Theme.C14220331todolist">
+        <item name="android:forceDarkAllowed">false</item>  <!-- Force light mode -->
+    </style>
 </resources>
